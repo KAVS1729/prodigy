@@ -1,0 +1,121 @@
+.bg{
+    background-image: url(https://img.freepik.com/free-photo/low-angle-shot-mesmerizing-starry-sky_181624-27925.jpg?t=st=1709440045~exp=1709443645~hmac=9f0f58c52f29e9b44e8ac196e3ae39d8ef7a86562593afc22fc8324af7d08e48&w=996);
+    height: 100vh;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Digital-7';
+    src: url('digital_7/digital-7.ttf');
+}
+.timer{
+    color:#FFFFFF;
+    font-size:120px;
+    font-weight: 500;
+    font-family: 'Digital-7';
+}
+.b{
+    padding-top: 20px;
+    user-select: none;
+    cursor: pointer;
+
+
+}
+
+     .start {
+        background-color:#81abb8;
+        width:130px;
+            height:50px;
+            text-align: center;
+            margin-top:20px;
+        border-top-left-radius:30px;
+        border-bottom-right-radius: 30px;
+            border-width:0;
+            font-size:20px;
+            color:#02040d;
+            font-family: 'Roboto';
+            font-weight: bolder;
+            
+         }
+         .reset{
+            background-color:#81abb8;
+                width:130px;
+                height:50px;
+                text-align: center;
+                margin-top:20px;
+            border-top-left-radius:30px;
+            border-bottom-right-radius: 30px;
+                border-width:0;
+                font-size:20px;
+                color:#02040d;
+                font-family: 'Roboto';
+                font-weight: bolder;
+         }
+         .stop {
+            background-color:#81abb8;
+                width:130px;
+                height:50px;
+                text-align: center;
+                margin-top:20px;
+            border-top-left-radius:30px;
+            border-bottom-right-radius: 30px;
+                border-width:0;
+                font-size:20px;
+                color:#FFFFFF;
+                font-family: 'Roboto';
+                font-weight: bolder;
+                color: #02040d;
+                
+                
+             }
+             .lap{
+                background-color:#81abb8;
+                    width:130px;
+                    height:50px;
+                    text-align: center;
+                    margin-top:20px;
+                border-top-left-radius:30px;
+                border-bottom-right-radius: 30px;
+                    border-width:0;
+                    font-size:20px;
+                    color:#02040d;
+                    font-family: 'Roboto';
+                    font-weight: bolder;
+             }
+            /* Centering lap list */
+.lap-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto; /* Auto margins horizontally center the lap list */
+    text-align: center; /* Center text within list items */
+    max-width: 200px;
+}
+
+/* Styling individual lap items */
+.lap-list li {
+    font-weight: bold; /* Make lap items bold */
+    background-color:#81abb8; /* Background color */
+    color: #02040d; /* Text color */
+    font-family: 'Digital-7';
+    font-size: 25px;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 18px;
+    border-top-left-radius:30px;
+                border-bottom-right-radius: 30px; 
+}
+
+.lap-list li span {
+    font-weight: bold;
+}
+
+
+
+             
+
+             .start-active,
+             .stop-active{
+                pointer-events: none;
+                opacity: 0.5;
+             }
+             
+             
